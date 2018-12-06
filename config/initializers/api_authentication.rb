@@ -4,14 +4,14 @@ ApiAuthentication.setup do |config|
   config.secret_passphrase = "my-secret_pass"
 
   # end point root uri
-  config.app_root = "http://localhost:8100"
+  config.app_root = "http://my-cool-page"
   
   # address to be sended by email when the user request a password recovery
-  config.account_recovery_callback = "http://localhost:8100/account/recovery"
+  config.account_recovery_callback = "http://my-cool-recovery-address"
   
   # Email credentials to send the recovery password message using SMTP authentication
-  config.recovery_email = "ifreelanceapp@gmail.com"
-  config.recovery_email_password = "ifreelance1234"
+  config.recovery_email = "my_cool_email@email.com"
+  config.recovery_email_password = "my-cool-password"
   config.recovery_email_smtp_uri = "smtp.gmail.com"
   config.recovery_email_smtp_port = 587
   
